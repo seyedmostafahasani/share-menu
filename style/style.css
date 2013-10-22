@@ -1,1 +1,155 @@
-style
+    @import url(http://fonts.googleapis.com/css?family=Kite+One);
+
+        *{
+            margin:0;padding:0;border:0;vertical-align:baseline;
+        }
+
+        body{
+            background: #505050;
+        }
+
+        a[class^='icon-'] , a[class*='icon-']{
+            display: block;
+            font-size: 30px;
+            speak:none;
+        }
+
+        input[type='checkbox']{
+            display: none;
+        }
+
+        .badboy{
+            width: 0;
+            height: 0;
+            clear: both;
+        }
+
+        label{
+           display: block;
+            position: relative;
+            width: 35px;
+            background: #f66;
+            opacity: 0.75;
+            margin-left: -1px;
+            padding:29px 10px;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+        }
+
+        label:hover{
+            opacity: 1;
+        }
+
+        .icon-menu{
+            font-size: 2.6rem;
+        }
+
+        span{
+            display: block;
+            position: absolute;
+            left: 4px;
+            top: 5px;
+            padding: 2px 5px;
+            -webkit-transition: all .25s ease-in-out;
+            -moz-transition: all .25s ease-in-out;
+         }
+
+         label:hover{
+            background: #f66;
+         }
+
+        #button-menu:checked ~ label span{
+            -webkit-transform : rotate(90deg);
+            -moz-transform : rotate(90deg);
+            top: 5px;
+            left: 4px;
+        }
+
+        #button-menu:checked ~ label{
+            opacity: 1;
+        }
+
+        nav{
+            width: 295px;
+            background: #414141;
+            margin-left: -398px;
+            margin-top:  -57px;
+            -webkit-transition : all .25s ease-in-out;
+            -moz-transition : all .25s ease-in-out;
+        }
+
+        menu{
+            width: 295px;
+            list-style: none;
+        }
+
+        li{
+            float: left;
+        }
+
+        a{
+            display: block;
+            padding: 13px 25px;
+            color : #fff;
+            opacity: .28;
+        }
+     
+        #button-menu:checked ~ nav {
+            margin-left: 54px;
+        }
+
+        li:hover{
+            background: #272822;
+        }
+
+        li:hover a:after{
+            visibility: visible;
+            font-size: 30px;
+        }
+
+        a:hover{
+            opacity: 1;
+            -webkit-transition : all .25s ease-in-out;
+            -moz-transition : all .25s ease-in-out;
+        }
+
+        a[class*='icon-']:after{
+            display: block;
+            content: '';
+            position: absolute;
+            left: 368px;
+            top: 11px;
+            visibility: hidden;
+            font-family: 'Kite One';
+        }
+
+        a.icon-twitter:after{
+            content: 'Twitter';
+        }
+
+        a.icon-facebook:after{
+            content: 'Facebook';
+        }
+
+        a.icon-gplus:after{
+            content: 'Gplus';
+        }
+
+        a.icon-gplus:before{
+            content: '\f0d5';
+        }
+
+        a.icon-dribble:after{
+            content: 'Dribble';
+            left: 337px;
+            padding : 0 30px 0 30px;            
+        }
+
+        a.icon-dribble:before{
+            content: '\f17d';
+        }
+
+        span:before{
+            content: '\f0c9';
+        }
+
