@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    </head>
+<body>
+    <input type="checkbox" id="button-menu"  />
+        <label for="button-menu" title='share'>
+            <span class='icon-menu'></span>
+        </label>
+        
+ <nav>
+   <menu>   
+        <li>
+           <a href="#" class='icon-twitter'></a>
+        </li>   
+        <li>
+           <a href="#" class='icon-facebook'></a>
+        </li>   
+        <li>
+           <a href="#" class='icon-gplus'></a>
+        </li>   
+        <li>
+           <a href="#" class='icon-dribble'></a>
+        </li>   
+        <div class="badboy"></div>
+    </menu> 
+ </nav>
+
+       
+</body>
+</html>
